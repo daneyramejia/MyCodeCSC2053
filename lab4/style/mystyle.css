@@ -1,0 +1,79 @@
+h1 {
+    font-size: 2.8em;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+a {
+    color: blue;
+}
+ul {
+    list-style-type: none;
+}
+p {
+    list-style-type: none;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Times New Roman', Times, serif;
+}
+body {
+    font-size: 1em;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 1000px;
+    margin: 0 auto;
+}
+#banner {
+    border-top: solid;
+    border-bottom: solid;
+    background-color: rgb(4, 4, 70);
+}
+#border {
+    border-style: solid;
+}
+table {
+    border:solid;
+    margin: 0 auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+caption {
+    font-size: 2em;
+    font-weight: bold;
+}
+titles {
+    font-size: 1.5em;
+    margin-left: 10%;
+    font-family: 'Times New Roman', Times, serif;
+}
+td, th {
+    padding: .5em;
+    padding-right: 5em;
+}
+  /*this is the css used to create the navigation menu */
+  nav{
+    clear:left;
+    padding:2em;
+    margin-left: 14em;
+    }
+    nav ul li {
+    float: left;
+    margin-right: 0.5em;
+    }
+    nav ul li a {
+    padding: 0.25em 1em;
+    text-decoration: none; /* no underline */
+    background-color: white; /* pale bluish white */
+    color: black; /* dark blue */
+    border: 2px solid black;
+    border-top-left-radius: 1em 1em; /* rounded corner! */
+    border-top-right-radius: 1em 1em; /* another rounded corner! */
+    }
+    nav ul li a:hover, nav ul li a:focus {
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    }
